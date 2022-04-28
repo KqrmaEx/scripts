@@ -3,7 +3,7 @@ local StarId = {
 }
 
 local CrownId = {
-	[225456929] = true,
+[225456929] = true,
 }
 
 function premium()
@@ -20,7 +20,7 @@ function premium()
 		
 		local unfreeze = function()
 			game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
-			game.Players.LocalPlayer.Character.UppperTorso.Anchored = flase
+			game.Players.LocalPlayer.Character.UppperTorso.Anchored = false
 		end
 		
 		v.Chatted:connect(function(cht)
@@ -221,7 +221,7 @@ local freeze = function()
 		
 		local unfreeze = function()
 			game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
-			game.Players.LocalPlayer.Character.UppperTorso.Anchored = flase
+			game.Players.LocalPlayer.Character.UppperTorso.Anchored = false
 		end
 		
 		v.Chatted:connect(function(cht)
