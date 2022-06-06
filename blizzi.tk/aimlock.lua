@@ -1,5 +1,5 @@
 
-local Aiming2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/slattisbabygirl/W-project/main/2"))()
+local Aiming2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/ntai1/scripts/main/blizzi.tk/aimlock2.lua"))()
 Aiming2.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
