@@ -1,6 +1,6 @@
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/slattisbabygirl/W-project/main/2"))()
-Aiming.TeamCheck(false)
+local Aiming2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/slattisbabygirl/W-project/main/2"))()
+Aiming2.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
@@ -19,12 +19,12 @@ local DaHoodSettings2 = {
 }
 getgenv().DaHoodSettings2 = DaHoodSettings2
 
-function Aiming.Check()
-    if not (Aiming.Enabled == true and Aiming.Selected ~= LocalPlayer and Aiming.SelectedPart ~= nil) then
+function Aiming2.Check()
+    if not (Aiming2.Enabled == true and Aiming2.Selected ~= LocalPlayer and Aiming2.SelectedPart ~= nil) then
         return false
     end
 
-    local Character = Aiming.Character(Aiming.Selected)
+    local Character = Aiming2.Character(Aiming2.Selected)
     local KOd = Character:WaitForChild("BodyEffects")["K.O"].Value
     local Grabbed = Character:FindFirstChild("GRABBING_CONSTRAINT") ~= nil
 
